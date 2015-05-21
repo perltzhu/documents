@@ -14,7 +14,6 @@
 
     { rss: 11259904, heapTotal: 5066496, heapUsed: 2049924 }
 
-截图如下：
 
 
 heapTotal和heapUsed参考V8的内存使用情况。rss为驻留集大小，相应说明可以参考[驻留集](http://baike.baidu.com/view/3319068.htm "驻留集")
@@ -61,6 +60,5 @@ heapTotal和heapUsed参考V8的内存使用情况。rss为驻留集大小，相�
     }
     benchmark took 2598631510 nanoseconds
 
-截图如下：
 
 相应api链接为[https://nodejs.org/api/process.html#process_process_hrtime](https://nodejs.org/api/process.html#process_process_hrtime "process.hrtime")
