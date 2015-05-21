@@ -12,7 +12,11 @@
     
 相应执行结果如下：
 
-    { rss: 11259904, heapTotal: 5066496, heapUsed: 2049924 }
+    { 
+	  rss: 4935680,
+      heapTotal: 1826816,
+      heapUsed: 650472 
+	}
 
 
 
@@ -41,24 +45,7 @@ heapTotal和heapUsed参考V8的内存使用情况。rss为驻留集大小，相�
 
 相应执行结果如下：
 
-    { _idleTimeout: 1000,
-      _idlePrev:{ 
-		_idleNext: [Circular],
-        _idlePrev: [Circular],
-        msecs: 1000,
-        ontimeout: [Function: listOnTimeout] 
-	  },
-      _idleNext:{
-		_idleNext: [Circular],
-        _idlePrev: [Circular],
-	    msecs: 1000,
-	    ontimeout: [Function: listOnTimeout] 
-	  },
-      _idleStart: 1432193297110,
-      _onTimeout: [Function],
-      _repeat: false 
-    }
-    benchmark took 2598631510 nanoseconds
+    benchmark took 1000000527 nanoseconds
 
 
 相应api链接为[https://nodejs.org/api/process.html#process_process_hrtime](https://nodejs.org/api/process.html#process_process_hrtime "process.hrtime")
