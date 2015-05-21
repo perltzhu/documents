@@ -1,6 +1,6 @@
 # 【nodejs】测量时间和内存函数
 
-本篇文章用来介绍nodejs中，用来测量时间和内存的函数
+本篇文章用来介绍在nodejs中，用来测量时间和内存的函数
 
 ## process.memoryUsage ##
 
