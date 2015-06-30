@@ -15,3 +15,6 @@ Javascript 数据上报例子
 ## nodejs测量时间和内存函数.md ##
 
 nodejs测量时间和内存函数介绍
+
+## void 操作符 ##
+介绍void的使用方法
