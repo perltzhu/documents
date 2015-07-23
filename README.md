@@ -6,7 +6,7 @@ Source Map 3 相应介绍
 
 ## eventproxy-document.md ##
 
-关于nodejs数据上报文档
+关于nodejs事件代理模块介绍文档
 
 ## javascript数据上报.md ##
 
